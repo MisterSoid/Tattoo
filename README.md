@@ -18,7 +18,7 @@ Ziel der App ist es, die Möglichkeiten des Sensors im Appinventor einzuschätze
 - Entwickler die sich mit dem Sensor "Pedometer" schnell vertraut machen wollen.
 - Sportler die ihre Distanz dokumentiert haben wollen.
 
-### technische Eigenschaften
+### Technische Eigenschaften
 Das Ziel der App ist es alle Eigenschaften zu präsentieren die der Sensor "Pedometer" im Appinventor anbieten kann. 
 - StrideLength: Setzt die Beinlänge (in Meter)
 - ElapsedTime: Zeit in Millisekunden seit der Pedometer gestartet wurde
