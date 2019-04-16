@@ -3,9 +3,6 @@
 ## Allgemeine Eigenschaften des Sensors
 Der Pedometer verwendet die Bewegungssensoren des Telefons, um zu erkennen, wann die Person sich mit dem Handy fortbewegt. Dabei wird versucht die Anzal der Schritte zu messen. Wenn der Schrittzähler auf die Länge des Fußes abgestimmt ist, können die Werte besser geschätzt werden.
 
-## Spezielle Schnittstelle des Sensors im AppInventor
-????
-
 ## Mobile App: Appinventor
 
 ### Name
