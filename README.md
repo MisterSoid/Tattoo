@@ -1,30 +1,51 @@
-# Eingesetzter Sensor: Pedometer
+# **Projekt: Survival (Name: ???**) 
 
-## Allgemeine Eigenschaften des Sensors
-Der Pedometer verwendet die Bewegungssensoren des Telefons, um zu erkennen, wann die Person sich mit dem Handy fortbewegt. Dabei wird versucht die Anzal der Schritte zu messen. Wenn der Schrittzähler auf die Länge des Fußes abgestimmt ist, können die Werte besser geschätzt werden.
+## **Vison:**
+Diese App soll Menschen helfen, einen leichteren Einstieg zurück in die Natur zu finden(Tipps), ein gutes Gefühl der Sicherheit(Hilfe/Notruf)und den Standorte zu ermitteln mit der der Hilfe von offline Karten oder Google Maps(Karte).
+Die Zielgruppe richtet sich primär an alle Menschen die gerne draußen sind zum Wandern, einem Abenteuer suchen oder sich dem Thema "Survival" witmen.
 
-## Mobile App: Appinventor
+## **Persona**
 
-### Name
-project_Pedometer
+### Persona Gruppe
+Menschen die sich mit dem Thema wie Survival oder Wandern beschäftigen.
 
-### Beschreibung
-Ziel der App ist es, die Möglichkeiten des Sensors im Appinventor einzuschätzen und darzustellen.
+### Persona Einzel
+**Name:** Max Musterbeispiel
+**Alter:** 27
+**Background:** War lange nicht mehr in der Natur unterwegs und möchte sich wieder mehr mit dem Thema beschäftigen
+**Beruf:** Max arbeitet als Softwareentwickler. Da seine Aufträge und Tätigkeiten meist vor dem Laptop getätigt werden, hat er leider nicht die Zeit sich mit dem Thema "Natur" zu beschäftigen.
+**Freizeit:** In seiner Freizeit macht Max gerne Sport, wie z.B. Wandern oder Klettern. Außerdem interessiert er sich für Survival. Seine Freunde, mit denen er gerne etwas unternimmt, sind ihm wichtig. 
 
-### Zielgruppe
-- Entwickler die sich mit dem Sensor "Pedometer" schnell vertraut machen wollen.
-- Sportler die ihre Distanz dokumentiert haben wollen.
+## **Use Cases**
+* Wie: Infos über die Natur und im Notfall eines Unfalles vorbereitet sein
+* Konkreter Anwendungsfall: Notfall durch Notruf/Standortermittlung für Vergiftung oder schwere Verletzung
+* Mehrwert: Das Gefühl von mehr Sicherheit und Erfahrung im Bereich Survival oder Natur dazu zu gewinnen
 
-### Technische Eigenschaften
-Das Ziel der App ist es alle Eigenschaften zu präsentieren die der Sensor "Pedometer" im Appinventor anbieten kann. 
-- StrideLength: Setzt die Beinlänge (in Meter)
-- ElapsedTime: Zeit in Millisekunden seit der Pedometer gestartet wurde
-- Distance: Zurückgelegte Strecke in Meter (wobei aber laut einer Internetquelle es "Fuß" sind, deswegen wurde die Zahl * 0.3048 gerechnet)
-- SimpleStep/WalkStep: Der Unterschied besteht darin, dass das Ereignis WalkStep nur dann ausgelöst wird, wenn ein SimpleStep mit der Vorwärtsbewegung verbunden zu sein scheint. Für Activity Tracking Apps ist dies eine wichtige und vielleicht auch kritische Unterscheidung. Darüber hinaus liefern die Ereignisse nicht nur die Anzahl der seit dem Start der Schrittzähler-Komponente erfassten Schritte, sondern auch die vom Geher zurückgelegte Strecke, basierend auf der StrideLength-Eigenschaft, die für die Komponente eingestellt werden kann.
-- StopDetectionTimeout: Dauer in der kein Schritt getätigt wurde. (Kein richtigen Wert gefunden)
+## **Planung** 
+Agiles Projektmanagement: Scrum (Sprint: 1 Woche);
 
-#### Button
-- Reset: Zurücksetzten der Daten
-- Start: Start der App oder gleichbedeutend mit Resume: Fortsetzen der App
-- Exit: Beenden der App
-- Pause: App anhalten
+### Task
+- Tipps -> (Shelter, Feuer, Holz, Nahrung)
+- Hilfe/Notruf -> (Leichte Verletzung, Normale Verletzung, Schlimme Verletzung)
+- Matrial/Shop -> (Vorstellung von Matrial -> Amazonpartner)
+- Karte -> (Google Maps, Offline Karten?)
+
+#### Allgemeinerwochenplan ca.
+1. Woche: Architektur, Grunddesign & Grundlegendes Design
+2. Woche: Implemetierung: Hilfe/Notruf, Tipps
+3. Woche: Implemetierung: Karte, testing
+
+- MeilenStein: Grundgerüst und Grunddesign funktioniert
+___
+4. Woche: Implemetierung: Matrial/Shop, 
+5. Woche: Testing
+- MeilenStein: Lauffähige App
+___
+6. Woche: Puffer
+- MeilenStein: Fertig App
+___
+#### Scrumplan wird Agil erstellt mit Absprache des Pos
+
+#### Zusätzliche Features
+- News (Einblendung Informationen von Updates oder Erweiterungen)
+- Werbung 
